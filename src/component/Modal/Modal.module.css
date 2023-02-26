@@ -1,0 +1,76 @@
+.container {
+  padding: 10px;
+  width: 230px;
+  position: absolute;
+  justify-content: center;
+  border: 1px solid #dee0e3;
+  border-radius: 5px;
+  top: 20px;
+  left: -93px;
+  font-size: 0.6em;
+  height: auto;
+  color: #000000;
+  background-color: #ffffff;
+  z-index: 999;
+}
+
+/* :: vs :   => 우선순위가 다른걸로 압니다..디코짤참고.*/
+
+.container::after {
+  border-color: #ffffff transparent;
+  border-style: solid;
+  border-width: 0 6px 8px 6.5px;
+  content: '';
+  display: block;
+  left: 75px;
+  position: absolute;
+  top: -7px;
+  width: 0;
+  z-index: 1;
+}
+
+.container::before {
+  border-color: #dee0e3 transparent;
+  border-style: solid;
+  border-width: 0 6px 8px 6.5px;
+  content: '';
+  display: block;
+  left: 75px;
+  position: absolute;
+  top: -8px;
+  width: 0;
+  z-index: 0;
+}
+
+.span {
+  position: relative;
+}
+
+.notice {
+  color: #6b90dc;
+}
+
+.xButton {
+  cursor: pointer;
+  background: inherit;
+  border: 0;
+  margin-left: 10px;
+  width: 15px;
+  height: 15px;
+}
+.xButton:before,
+.xButton:after {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  content: ' ';
+  height: 20px;
+  width: 2px;
+  background-color: #dee0e3;
+}
+.xButton:before {
+  transform: rotate(45deg);
+}
+.xButton:after {
+  transform: rotate(-45deg);
+}

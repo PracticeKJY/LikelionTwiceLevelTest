@@ -1,0 +1,46 @@
+.a11y{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0)
+}
+
+
+
+.container {
+  display: flex;
+  width: 120px;
+  gap: 8px;
+  border: 1px solid #c4c4c4;
+  margin: 16px 0 16px 0;
+  /* align-items: center; */
+}
+
+.buttonMinus {
+  cursor: pointer;
+  color: #a6a6a6;
+  opacity: 0.8;
+  /* background-color: red; */
+  border: 0;
+  width: 38px;
+  background-color: #f1f2f4;
+  padding: 14px 10px 8px 10px;
+}
+
+.buttonPlus {
+  cursor: pointer;
+  width: 38px;
+  padding: 14px 10px 8px 10px;
+  /* letter-spacing: -0.5%; */
+  opacity: 0.8;
+  border: 0;
+  color: #a6a6a6;
+  background-color: #f1f2f4;
+}
+
+.countNum {
+  padding: 10px 10px 8px 10px;
+}
+

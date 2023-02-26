@@ -1,0 +1,31 @@
+/* 웹접근성의 고민 ? aria-label(속성) vs a11y-hiddel(마크업) vs before(선택자) */
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 700; 
+  /* strong 태그로 묶을 수도 있고, 전체에 font-weight: 700을 줘도 되는구나..!*/
+  padding-bottom: 10px;
+}
+
+.discountPercent {
+  font-size: 24px;
+  color: #6b90dc;
+}
+
+.discountPriceWrap {
+  margin-left: auto;
+}
+
+.discountPrice {
+  font-size: 22px;
+
+}
+
+.fullPrice {
+  color: #999999;
+  font-size: 16px;
+  text-decoration: line-through;
+}

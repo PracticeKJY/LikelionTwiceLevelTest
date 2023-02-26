@@ -1,0 +1,22 @@
+.container {
+  width: 250px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.introWrap {
+  /* width: 250px; */
+  /* white-space: pre-line; */
+}
+
+.mainTitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.subTitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 0;
+}

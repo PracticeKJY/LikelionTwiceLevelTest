@@ -1,0 +1,29 @@
+
+.delivery {
+  display: flex;
+  /* gap: 8px; */
+  /* padding-right: 100px; */
+  gap: 8px;
+  border-top: 1px solid #dee0e3;
+  padding-top: 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.deliveryPrice {
+  padding-left: 10px;
+  border-left: 1px solid #dee0e3;
+}
+
+.deliveryOption {
+  color: #6b90dc;
+}
+
+.deliveryEtc {
+  padding: 12px 0 12px 0;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #999999;
+  border-bottom: 1px solid #dee0e3;
+}

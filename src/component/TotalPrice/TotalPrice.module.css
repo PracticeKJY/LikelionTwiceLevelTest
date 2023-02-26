@@ -1,0 +1,60 @@
+.a11y {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+.totalContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 700;
+  border-top: 1px solid #dee0e3;
+  /* padding-top: 10px; */
+  padding: 20px 0 20px 0;
+}
+
+.totalPriceNotice {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.totalPrice {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  font-size: 22px;
+  text-align: center;
+  gap: 8px;
+}
+
+.questionButton {
+  cursor: pointer;
+  border: 0;
+  background: #ffffff;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+}
+
+.totalProductNum {
+  color: #6b90dc;
+}
+
+.totalProductNumWrap {
+  font-weight: 400;
+  font-size: 14px;
+  border-right: 1px solid #dee0e3;
+  padding-right: 8px;
+}
+
+
+.totalPriceNum{
+  color: #6b90dc;
+
+}
